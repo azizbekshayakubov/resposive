@@ -1,0 +1,56 @@
+.footer {
+  background: #2c343e;
+}
+
+.footer__boxs {
+  @include d-flex;
+  align-items: center;
+  margin:0 20px
+}
+
+.footer__left {
+  @include d-flex;
+  align-items: center;
+
+}
+
+.footer__logo img {
+  color: white;
+}
+
+.footer__center ul {
+  @include d-flex;
+  margin-left: 50px;
+
+  
+  
+  .list-item{
+    margin: 0 15px;
+  }
+
+  .list-item a:hover{
+    color: white;
+  }
+
+  .list-link{
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+    color: #83888f;
+    transition: all ease 0.3s;
+  }
+
+ 
+}
+
+.footer__right{
+    a{
+        margin: 0 5px;
+    }
+}
+
+

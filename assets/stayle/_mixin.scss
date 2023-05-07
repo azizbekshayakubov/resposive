@@ -1,0 +1,20 @@
+@mixin btn {
+  background: #0e8784;
+  border-radius: 6px;
+  padding: 15px 31px;
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #fefcf7;
+  border: none;
+  cursor: pointer;
+}
+
+@mixin d-flex ($justContent:space-between, $aItem:centr) {
+    display: flex;
+    justify-content: $justContent;
+    align-items: $aItem;
+}

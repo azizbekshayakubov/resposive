@@ -1,0 +1,176 @@
+@media only screen and (max-width: 576px) {
+  // for mobile styles
+  .header {
+    &__right nav {
+      display: none;
+    }
+
+    .hamburger_icon {
+      display: block;
+    }
+
+    .hero {
+      background-image: url(../images/mobil_hero_img.png);
+      width: 100%;
+      max-width: 327px;
+      height: 500px;
+      margin: 0 auto;
+      background-size: cover;
+      .hero__content {
+        padding: 100px 24px;
+        width: auto;
+        h1 {
+          font-family: "Fraunces 9pt";
+          font-style: normal;
+          font-weight: 900;
+          font-size: 40px;
+          line-height: 40px;
+          text-align: center;
+          color: #fefcf7;
+        }
+
+        p {
+          font-family: "Barlow";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 15px;
+          line-height: 25px;
+          text-align: center;
+          color: #fefcf7;
+        }
+        .btn {
+          display: block;
+          margin: 0 auto;
+        }
+      }
+    }
+  }
+
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .holder {
+    background-size: contain;
+  }
+
+  .main {
+    height: 880px;
+
+    &__title {
+      margin-bottom: 100px;
+    }
+
+    &__subtitle {
+      display: none;
+    }
+
+    .main__boxs {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+
+  .article__content {
+    margin: 510px auto;
+    h1 {
+      text-align: center;
+    }
+
+    .btn {
+      margin-left: 170px;
+    }
+
+    .article__content__cards {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 0 auto;
+    }
+
+    .article__content__card {
+      border: none;
+      margin: 0 auto;
+
+      .oval {
+        margin: 0 auto;
+        display: none;
+      }
+
+      .number {
+        margin-left: 100px;
+      }
+
+      .card__title {
+        width: 100%;
+        text-align: center;
+      }
+
+      .card__subtitle {
+        width: 100%;
+        text-align: center;
+      }
+    }
+
+    .article__content__card3 {
+      margin: 0 auto;
+
+      .oval {
+        display: none;
+      }
+
+      .number {
+        margin-left: 100px;
+      }
+
+      .card__title {
+        width: 100%;
+        text-align: center;
+      }
+
+      .card__subtitle {
+        width: 100%;
+        text-align: center;
+      }
+    }
+  }
+  .footer{
+    display: flex;
+    flex-wrap: wrap;
+    height: 250px;
+  }
+  .footer__boxs {
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+  }
+
+  .footer__left {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 15px;
+  
+  }
+  .footer__logo {
+   margin: 0 auto;
+   margin-bottom: 20px;
+  }
+
+  .footer__right{
+    margin: 0 auto;
+  }
+  
+}
+
+@media only screen and (min-width: 768px) {
+  // for tablet styles
+}
+
+@media only screen and (min-width: 992px) {
+  // for notebook small size styles
+}
+
+@media only screen and (min-width: 1200px) {
+  // for deviec big size styles
+}

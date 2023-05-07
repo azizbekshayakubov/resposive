@@ -1,0 +1,129 @@
+.section {
+  margin-bottom: 200px;
+
+  .xay {
+    margin-bottom: 150px;
+  }
+
+  .holder {
+    background-image: url("../images/section_img.svg");
+    background-repeat: no-repeat;
+    height: 196px;
+    width: 100%;
+  }
+  .cards {
+    @include d-flex;
+    gap: 30px;
+    margin-top: -61px;
+
+    img {
+      display: block;
+      margin: 0 auto;
+    }
+
+    &__content {
+      h1 {
+        font-family: "Fraunces 9pt";
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+        color: #333d4b;
+        margin-bottom: 24px;
+      }
+
+      p {
+        font-family: "Barlow";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        color: #333d4b;
+      }
+    }
+  }
+}
+
+.main {
+  background-color: #333d4b;
+  height: 577px;
+
+  &__title {
+    padding-top: 70px;
+    font-family: "Fraunces 9pt";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #fefcf7;
+    margin-bottom: 20px;
+  }
+
+  &__subtitle {
+    margin: 0 auto;
+    width: 45%;
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #fefcf7;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    margin-bottom: 100px;
+    display: block;
+  
+  }
+
+  .main__boxs {
+    @include d-flex;
+    margin-bottom: 150px;
+   
+  }
+
+  .main__box {
+    margin: 0 auto;
+    background: #0e8784;
+    border-radius: 8px;
+    width: 295px;
+    height: 350px;
+    margin-bottom: 30px;
+
+    .main__img{
+      width: 72px;
+      height: 72px;
+      margin: 0 auto;
+      margin-left: 110px;
+      margin-top: 60px;
+      margin-bottom: 45px;
+    }
+    .box__title {
+      font-family: "Fraunces 9pt";
+      font-style: normal;
+      font-weight: 900;
+      font-size: 24px;
+      line-height: 32px;
+      text-align: center;
+      color: #fefcf7;
+      margin-bottom: 20px;
+      margin-top: 20px;
+    }
+
+    .box__subtitle {
+      font-family: "Barlow";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 26px;
+      text-align: center;
+      color: #fefcf7;
+      width: 87%;
+      margin-left: 12px;
+    }
+
+  }
+}

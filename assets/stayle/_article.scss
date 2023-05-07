@@ -1,0 +1,118 @@
+.article__content{
+    margin-bottom: 100px;
+}
+
+.article__content h1 {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888F;
+    margin-bottom: 40px;
+}
+
+.article__content__cards {
+    @include d-flex(0);
+    padding-bottom: 64px;
+}
+
+.article__content__card3 {
+    width: 300px;
+    height: 400px;
+    position: relative;
+    margin-top: 80px;
+    
+    
+    .oval {
+        position: absolute;
+        top: -14px;
+    }
+
+    .number{
+        position: absolute;
+        left: 0;
+        top: 100px;
+    }
+
+    .card__title {
+        width: 60%;
+        padding-top: 200px;
+        font-family: Fraunces ;
+        padding-bottom: 42px;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 36px;
+        color: #333D4B;
+    }
+     
+    .card__subtitle {
+        width: 95%;
+        font-family: Barlow;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #333D4B;
+        margin-right: 10px;
+    }
+
+}
+
+
+
+.article__content__card {
+    width: 300px;
+    height: 400px;
+    position: relative;
+    margin-top: 80px;
+    border-top: 2px solid #FDD6BA;
+    display: block;
+
+   
+
+    .oval {
+        position: absolute;
+        top: -14px;
+        display: block;
+    }
+
+    .number{
+        position: absolute;
+        left: 0;
+        top: 100px;
+    }
+
+    .card__title {
+        width: 60%;
+        padding-top: 200px;
+        font-family: Fraunces ;
+        padding-bottom: 42px;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 36px;
+        color: #333D4B;
+    }
+     
+    .card__subtitle {
+        width: 95%;
+        font-family: Barlow;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #333D4B;
+    }
+
+   
+} 
+
+.btn {
+    @include btn;
+}
+
+
+
+
+
