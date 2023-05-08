@@ -456,7 +456,8 @@ p {
     text-align: center;
   }
   .article__content .btn {
-    margin-left: 170px;
+    margin: 0 auto;
+    display: block;
   }
   .article__content .article__content__cards {
     display: flex;
