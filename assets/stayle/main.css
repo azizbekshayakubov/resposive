@@ -565,6 +565,66 @@ p {
   top: 20px;
 }
 
+.msg__content {
+  padding: 64px 24px;
+  background-color: #333d4b;
+  border-radius: 10px;
+  margin: 45px 0;
+}
+.msg__content span {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #ffffff;
+  opacity: 0.5;
+  margin-bottom: 10px;
+}
+.msg__content p {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 40px;
+  color: #ffffff;
+}
+
+.msg__btn {
+  display: flex;
+  justify-content: end;
+}
+.msg__btn .btn {
+  background: #0e8784;
+  border-radius: 6px;
+  padding: 15px 31px;
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #fefcf7;
+  border: none;
+  cursor: pointer;
+}
+
+.subs__footer {
+  margin-bottom: 50px;
+}
+.subs__footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: centr;
+  align-items: center;
+  background-color: #333d4b;
+  padding: 47px 87px;
+  border-radius: 12px;
+}
+.subs__footer-right a {
+  margin: 0 10px;
+}
+
 @media only screen and (max-width: 576px) {
   .header__right nav {
     display: none;
